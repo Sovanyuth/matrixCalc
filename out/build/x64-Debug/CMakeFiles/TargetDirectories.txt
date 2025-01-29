@@ -1,0 +1,5 @@
+C:/Users/sovan/OneDrive/Desktop/Spring 2025/ECE 3574/matrixCalc/out/build/x64-Debug/CMakeFiles/matrixCalc.dir
+C:/Users/sovan/OneDrive/Desktop/Spring 2025/ECE 3574/matrixCalc/out/build/x64-Debug/CMakeFiles/my_test.dir
+C:/Users/sovan/OneDrive/Desktop/Spring 2025/ECE 3574/matrixCalc/out/build/x64-Debug/CMakeFiles/test.dir
+C:/Users/sovan/OneDrive/Desktop/Spring 2025/ECE 3574/matrixCalc/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/sovan/OneDrive/Desktop/Spring 2025/ECE 3574/matrixCalc/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
