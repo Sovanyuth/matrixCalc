@@ -15,19 +15,24 @@ Matrix createMatrix(int rows, int cols)
 
 Matrix addMatrices(const Matrix& m1, const Matrix& m2)
 {
-    // Since the matrice is a vector of vectors, the rows must be the outer vector's size
-    // And the columns must be the inner vector's size
-    // Check if rows and columns are equal. 
-    if (m1.size() != m2.size() || m1[0].size() != m2[0].size())
+    // Similar to the add function but this time switch the subtract sign
+    int m1Rows = m1.size();
+    int m1Cols = m1[0].size();
+    int m2Rows = m2.size();
+    int m2Cols = m2[0].size();
+
+    if (m1Rows != m2Rows || m1Cols != m2Cols)
     {
-        throw invalid_argument("Rows and Columns must be identical to add");
-    } 
-    else 
+        throw invalid_argument("Rows and Columns must be identical to add!");
+    }
+    else
     {
-        Matrix results(m1.size(), vector<double>(m1[0].size()));
+        Matrix results(m1Rows, vector<double>(m1Cols));
+
         // Else proceed to the the addition
-        for (int i = 0; i < m1.size(); i++) {
-            for (int j = 0; j < m1[0].size(); j++)
+        for (int i = 0; i < m1Rows; i++)
+        {
+            for (int j = 0; j < m1Cols; j++)
             {
                 results[i][j] = m1[i][j] + m2[i][j];
             }
@@ -39,18 +44,23 @@ Matrix addMatrices(const Matrix& m1, const Matrix& m2)
 Matrix subtractMatrices(const Matrix& m1, const Matrix& m2)
 {
     // Similar to the add function but this time switch the subtract sign
-    if (m1.size() != m2.size() || m1[0].size() != m2[0].size())
+    int m1Rows = m1.size();
+    int m1Cols = m1[0].size();
+    int m2Rows = m2.size();
+    int m2Cols = m2[0].size();
+
+    if (m1Rows != m2Rows || m1Cols != m2Cols)
     {
         throw invalid_argument("Rows and Columns must be identical to subtract!");
     }
     else 
     {
-        Matrix results(m1.size(), vector<double>(m1[0].size()));
+        Matrix results(m1Rows, vector<double>(m1Cols));
 
         // Else proceed to the the addition
-        for (int i = 0; i < m1.size(); i++)
+        for (int i = 0; i < m1Rows; i++)
         {
-            for (int j = 0; j < m1[0].size(); j++)
+            for (int j = 0; j < m1Cols; j++)
             {
                 results[i][j] = m1[i][j] - m2[i][j];
             }
