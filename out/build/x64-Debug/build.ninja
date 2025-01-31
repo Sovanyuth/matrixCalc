@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:\Users\sovan\OneDrive\Desktop\Spring$ 2025\ECE$ 3574\ma
 
 build cmake_object_order_depends_target_matrixCalc: phony || .
 
-build CMakeFiles\matrixCalc.dir\src\main.cpp.obj: CXX_COMPILER__matrixCalc_unscanned_Debug C$:\Users\sovan\OneDrive\Desktop\Spring$ 2025\ECE$ 3574\matrixCalc\src\main.cpp || cmake_object_order_depends_target_matrixCalc
+build CMakeFiles\matrixCalc.dir\src\matrix.cpp.obj: CXX_COMPILER__matrixCalc_unscanned_Debug C$:\Users\sovan\OneDrive\Desktop\Spring$ 2025\ECE$ 3574\matrixCalc\src\matrix.cpp || cmake_object_order_depends_target_matrixCalc
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest
   INCLUDES = -I"C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\include"
   OBJECT_DIR = CMakeFiles\matrixCalc.dir
@@ -57,7 +57,7 @@ build CMakeFiles\matrixCalc.dir\src\main.cpp.obj: CXX_COMPILER__matrixCalc_unsca
   TARGET_COMPILE_PDB = CMakeFiles\matrixCalc.dir\
   TARGET_PDB = matrixCalc.pdb
 
-build CMakeFiles\matrixCalc.dir\src\matrix.cpp.obj: CXX_COMPILER__matrixCalc_unscanned_Debug C$:\Users\sovan\OneDrive\Desktop\Spring$ 2025\ECE$ 3574\matrixCalc\src\matrix.cpp || cmake_object_order_depends_target_matrixCalc
+build CMakeFiles\matrixCalc.dir\src\main.cpp.obj: CXX_COMPILER__matrixCalc_unscanned_Debug C$:\Users\sovan\OneDrive\Desktop\Spring$ 2025\ECE$ 3574\matrixCalc\src\main.cpp || cmake_object_order_depends_target_matrixCalc
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest
   INCLUDES = -I"C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\include"
   OBJECT_DIR = CMakeFiles\matrixCalc.dir
@@ -73,7 +73,7 @@ build CMakeFiles\matrixCalc.dir\src\matrix.cpp.obj: CXX_COMPILER__matrixCalc_uns
 #############################################
 # Link the executable matrixCalc.exe
 
-build matrixCalc.exe: CXX_EXECUTABLE_LINKER__matrixCalc_Debug CMakeFiles\matrixCalc.dir\src\main.cpp.obj CMakeFiles\matrixCalc.dir\src\matrix.cpp.obj
+build matrixCalc.exe: CXX_EXECUTABLE_LINKER__matrixCalc_Debug CMakeFiles\matrixCalc.dir\src\matrix.cpp.obj CMakeFiles\matrixCalc.dir\src\main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -102,14 +102,6 @@ build CMakeFiles\my_test.dir\src\matrix.cpp.obj: CXX_COMPILER__my_test_unscanned
   TARGET_COMPILE_PDB = CMakeFiles\my_test.dir\
   TARGET_PDB = my_test.pdb
 
-build CMakeFiles\my_test.dir\src\main.cpp.obj: CXX_COMPILER__my_test_unscanned_Debug C$:\Users\sovan\OneDrive\Desktop\Spring$ 2025\ECE$ 3574\matrixCalc\src\main.cpp || cmake_object_order_depends_target_my_test
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest
-  INCLUDES = -I"C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\include"
-  OBJECT_DIR = CMakeFiles\my_test.dir
-  OBJECT_FILE_DIR = CMakeFiles\my_test.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\my_test.dir\
-  TARGET_PDB = my_test.pdb
-
 build CMakeFiles\my_test.dir\test\test.cpp.obj: CXX_COMPILER__my_test_unscanned_Debug C$:\Users\sovan\OneDrive\Desktop\Spring$ 2025\ECE$ 3574\matrixCalc\test\test.cpp || cmake_object_order_depends_target_my_test
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++latest
   INCLUDES = -I"C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\include"
@@ -126,7 +118,7 @@ build CMakeFiles\my_test.dir\test\test.cpp.obj: CXX_COMPILER__my_test_unscanned_
 #############################################
 # Link the executable my_test.exe
 
-build my_test.exe: CXX_EXECUTABLE_LINKER__my_test_Debug CMakeFiles\my_test.dir\src\matrix.cpp.obj CMakeFiles\my_test.dir\src\main.cpp.obj CMakeFiles\my_test.dir\test\test.cpp.obj
+build my_test.exe: CXX_EXECUTABLE_LINKER__my_test_Debug CMakeFiles\my_test.dir\src\matrix.cpp.obj CMakeFiles\my_test.dir\test\test.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

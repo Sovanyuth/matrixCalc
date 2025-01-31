@@ -11,9 +11,10 @@ project(matrixCalc)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Add the main executable
-add_executable(matrixCalc src/main.cpp src/matrix.cpp "include/matrix.h")
+add_executable(matrixCalc src/matrix.cpp src/main.cpp)
 
-add_executable(my_test src/matrix.cpp src/main.cpp test/test.cpp "include/matrix.h")
+add_executable(my_test src/matrix.cpp test/test.cpp)
+ 
 target_include_directories(my_test PRIVATE ${PROJECT_SOURCE_DIR}/include)
 
 enable_testing()

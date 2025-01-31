@@ -4,25 +4,14 @@
     <ClCompile Include="C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\src\matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\src\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\test\test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\include\matrix.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="C:\Users\sovan\OneDrive\Desktop\Spring 2025\ECE 3574\matrixCalc\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{6C86CB0A-2033-306A-A20D-C33A1A163C62}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{402AD9D5-9CE1-30AD-BA78-0B59A4C26C48}</UniqueIdentifier>
     </Filter>
